@@ -32,7 +32,7 @@ function Login() {
                 </Button>
               </div>
               <p className="flex items-center justify-center mt-3">
-                Already have an account?
+                Don't have an account?
                 <Link className="underline text-sky-600 ml-1" to={"/register"}>
                   Register
                 </Link>
