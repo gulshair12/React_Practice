@@ -6,7 +6,9 @@ export default function Input({
   inputId,
   defaultValue,
   label,
+  value,
   helperText,
+  onChange,
   error,
 }) {
   return (
@@ -26,7 +28,9 @@ export default function Input({
         type={type}
         name={name}
         id={inputId}
+        value={value}
         defaultValue={defaultValue}
+        onChange={onChange}
         className={
           "shadow Registerearance-none border border-red-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         }
